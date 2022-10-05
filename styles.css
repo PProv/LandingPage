@@ -1,0 +1,75 @@
+body {
+    font-family: system-ui, -apple-system, Roboto, sans-serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    align-items: center;
+    flex: 1;
+}
+
+.title {
+    font-size: 24px;
+    color: #F9FaF8;
+    font-weight: bold;
+}
+
+.head-links a,
+.intro {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+    
+.content1 {
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(waterfall.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1F2937;
+}
+
+.phrase {
+    color: #F9FaF8;
+    font-weight: bolder;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.signup {
+        width: 80px;
+        margin-top: 20px;
+        border-radius: 8px;
+        border-color: cornflowerblue;
+        background-color: cornflowerblue;
+        text-align: center;
+        color: #F9FaF8;
+        font-size: 14px;
+        font-weight: bold;
+}
+
+.main-text {
+    padding-right: 50px;
+    max-width: 600px;
+}

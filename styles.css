@@ -47,7 +47,7 @@ ul {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #1F2937;
+    background-color: ;
 }
 
 .phrase {
@@ -55,21 +55,31 @@ ul {
     font-weight: bolder;
     font-size: 48px;
     margin-bottom: 10px;
+    text-shadow: 0 0 4px black;
 }
 
 .signup {
-        width: 80px;
-        margin-top: 20px;
+        width: 300px;
+        height: 50px;
         border-radius: 8px;
-        border-color: cornflowerblue;
-        background-color: cornflowerblue;
+        border-color: #1F2937;
+        background-color: #1F2937;
         text-align: center;
         color: #F9FaF8;
-        font-size: 14px;
+        font-size: 20px;
         font-weight: bold;
+        margin-top: 20px;
+        font-family: system-ui, -apple-system, Roboto, sans-serif;
+    
 }
 
 .main-text {
-    padding-right: 50px;
+    padding: 50px;
     max-width: 600px;
+    background-color: rgba(31, 41, 55, 0.4);
+    bac
+}
+
+.intro {
+    text-shadow: 0 0 4px black;
 }
